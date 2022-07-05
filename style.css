@@ -1,8 +1,42 @@
 :root {
-  --background-clr: #;
+  --background-clr: #000;
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.footer {
+  border: 2px solid red;
+  padding: 30px 0px;
+  text-align: center;
+  background: var(--background-clr);
+}
+.footer .row {
+  width: 100%;
+  margin: 1% 0%;
+  padding: 0.6% 0.5%;
+  border: 2px solid green;
+  font-size: 2rem;
+  color: gray;
+}
+.footer .row a {
+  text-decoration: none;
+  color: gray;
+  transition: 0.5s;
+}
+.footer .row a:hover {
+  color: #fff;
+}
+.footer .row ul {
+  width: inherit;
+}
+.footer .row ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 30px;
+}
+.footer .row a i {
+  font-size: 2rem;
+  margin: 0% 1%;
 }
